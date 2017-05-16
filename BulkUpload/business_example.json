@@ -1,0 +1,114 @@
+[
+  {
+    "user": {
+      "email": "business@gmail.com",
+      "password": "1234567890"
+    },
+    "business": {
+      "is_home": 1,
+      "zip_code": 35015,
+      "ind_id": 15,
+      "name": "Business name",
+      "address": "Physical address",
+      "suite": "#100",
+      "city": "City",
+      "state": "State",
+      "phone": "(111) 111 - 1111",
+      "website": "local.local/",
+      "contact_email": "info@gmail.com",
+      "description": "About us\nAbout us",
+      "yelp_url": "http://www.yelp.com/biz/business-name",
+      "vanity_name": "business-name",
+      "vanity_changed": 1
+    },
+    "operation": [
+      {
+        "day": 0,
+        "open": "10:00",
+        "end": "18:00",
+        "active": 0
+      },
+      {
+        "day": 1,
+        "open": "10:00",
+        "end": "18:00",
+        "active": 0
+      },
+      {
+        "day": 2,
+        "open": "10:00",
+        "end": "18:00",
+        "active": 0
+      },
+      {
+        "day": 3,
+        "open": "10:00",
+        "end": "18:00",
+        "active": 0
+      },
+      {
+        "day": 4,
+        "open": "10:00",
+        "end": "18:00",
+        "active": 0
+      },
+      {
+        "day": 5,
+        "open": "10:00",
+        "end": "18:00",
+        "active": 1
+      },
+      {
+        "day": 6,
+        "open": "10:00",
+        "end": "18:00",
+        "active": 1
+      }
+    ],
+    "profile_photo": "business_profile_photo.png",
+    "photos": [
+      {
+        "file_name": "business_photo_01.png",
+        "title": "Photo 01 Title",
+        "description": "Photo 01 Description"
+      },
+      {
+        "file_name": "business_photo_02.png",
+        "title": "Photo 02 Title",
+        "description": "Photo 02 Description"
+      },
+      {
+        "file_name": "business_photo_03.png",
+        "title": "Photo 03 Title",
+        "description": "Photo 03 Description"
+      }
+    ],
+    "menu": [
+      {
+        "title": "Section1 Title",
+        "description": "Section1\nDescription",
+        "disclaimer": "Section1\nDisclaimer",
+        "category": [
+          {
+            "title": "Category1 Title",
+            "description": "Category1\nDescription",
+            "disclaimer": "Category1\nDisclaimer",
+            "service": [
+              {
+                "title": "service1 title",
+                "price": 123,
+                "extra_field_1": "extra_field_1_value",
+                "extra_field_2": "extra_field_2_value"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Section2 Title",
+        "description": "Section2\nDescription",
+        "disclaimer": "Section2\nDisclaimer"
+      }
+    ]
+  }
+]

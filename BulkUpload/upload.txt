@@ -1,0 +1,62 @@
+user
+	email - email which user specify in "Sign up" form
+business
+	is_home - set this field to 1 only if the business is home or field should be absent
+	ind_id - Industry ID. look at the Industry Dictionary (bellow)
+	suite - is not required field. if there are no suite then this field should be absent
+	phone - keep this format - (000) 000 - 0000
+	contact_email - business email
+	yelp_url - if business was not registered in yelp then "yelp_url", "vanity_name", "vanity_changed" fields should be absent
+operation - all days are required
+	"day": 0 is monday
+profile_photo
+	file_name - unique file name in photos folder
+photos
+	file_name - unique file name in photos folder
+menu
+	description, disclaimer - can be absent
+	category
+		description, disclaimer - can be absent
+		service
+			title, price - required fields
+
+
+Newline delimiter for multi-line fields (description, disclaimer) is "\n".
+
+
+
+if you want to upload more than 1 business you should separate it. for example
+[
+  {
+    "user": {
+      "email": "business@gmail.com",
+      "password": "1234567890"
+    },
+    "business": {
+    ..
+    }
+    ...
+  },
+  {
+  "user": {
+	"email": "another_business@gmail.com",
+	"password": "1234567890"
+  },
+  "business": {
+  ..
+  }
+  ...
+  }
+]
+
+
+Industry Dictionary
+
+"15"	"Day Spa"
+"16"	"Massage"
+"17"	"Hair Salon"
+"18"	"Nail Salon"
+"19"	"Skin Care"
+"20"	"Hair Removal"
+"21"	"Other "
+"22"	"Barber"

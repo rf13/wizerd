@@ -1,0 +1,153 @@
+html,
+body {
+    height: 100%;
+    min-width: 350px;
+}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+footer.footer .pull-left a {
+    margin-right: 15px;
+}
+footer.footer .pull-right a {
+    margin-left: 15px;
+}
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+.grid-view th {
+    white-space: nowrap;
+}
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+span.attention {
+    color: #ff0000!important;
+}
+div.required label:after {
+    content: " *";
+    color: red;
+}
+/* Main page */
+.glyphicon-big {
+    font-size: 3em;
+}
+.admin-panel .panel-success {
+    border-color: #5cb85c;
+}
+.admin-panel .panel-success .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+.admin-panel .panel-success > a {
+    color: #5cb85c;
+}
+.admin-panel .panel-warning {
+    border-color: #f0ad4e;
+}
+.admin-panel .panel-warning .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+.admin-panel .panel-warning > a {
+    color: #f0ad4e;
+}
+.admin-panel .panel-danger {
+    border-color: #d9534f;
+}
+.admin-panel .panel-danger .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+.admin-panel .panel-danger > a {
+    color: #d9534f;
+}
+.grid-view td.action-column {
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.1em;
+    max-width: 7em;
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .staff_info img {
+        max-width: 220px;
+    }
+}
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}

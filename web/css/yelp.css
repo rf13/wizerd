@@ -1,0 +1,402 @@
+.rating {
+    position: relative;
+    overflow: hidden;
+    width: 82px;
+    height: 14px
+}
+
+.star-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(//s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/c2252a4cd43e/assets/img/stars/stars_map.png) no-repeat
+}
+
+.filtered-reviews-content .star-img {
+    background: url(//s3-media3.fl.yelpcdn.com/assets/srv0/yelp_styleguide/23c56144463d/assets/img/stars/stars_map_gray.png) no-repeat
+}
+
+.rating .stars_0 {
+    background-position: -3px -3px
+}
+
+.rating .stars_1 {
+    background-position: -3px -21px
+}
+
+.rating .stars_1_half {
+    background-position: -3px -39px
+}
+
+.rating .stars_2 {
+    background-position: -3px -57px
+}
+
+.rating .stars_2_half {
+    background-position: -3px -75px
+}
+
+.rating .stars_3 {
+    background-position: -3px -93px
+}
+
+.rating .stars_3_half {
+    background-position: -3px -111px
+}
+
+.rating .stars_4 {
+    background-position: -3px -129px
+}
+
+.rating .stars_4_half {
+    background-position: -3px -147px
+}
+
+.rating .stars_5 {
+    background-position: -3px -165px
+}
+
+.rating-small {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 49px;
+    height: 9px
+}
+
+.rating-small .stars_0 {
+    background-position: -3px -183px
+}
+
+.rating-small .stars_1 {
+    background-position: -3px -195px
+}
+
+.rating-small .stars_1_half {
+    background-position: -3px -207px
+}
+
+.rating-small .stars_2 {
+    background-position: -3px -219px
+}
+
+.rating-small .stars_2_half {
+    background-position: -3px -231px
+}
+
+.rating-small .stars_3 {
+    background-position: -3px -243px
+}
+
+.rating-small .stars_3_half {
+    background-position: -3px -255px
+}
+
+.rating-small .stars_4 {
+    background-position: -3px -267px
+}
+
+.rating-small .stars_4_half {
+    background-position: -3px -279px
+}
+
+.rating-small .stars_5 {
+    background-position: -3px -291px
+}
+
+.rating-large {
+    overflow: hidden;
+    position: relative;
+    width: 106px;
+    height: 18px
+}
+
+.rating-large .stars_0 {
+    background-position: -3px -303px
+}
+
+.rating-large .stars_1 {
+    background-position: -3px -324px
+}
+
+.rating-large .stars_1_half {
+    background-position: -3px -345px
+}
+
+.rating-large .stars_2 {
+    background-position: -3px -366px
+}
+
+.rating-large .stars_2_half {
+    background-position: -3px -387px
+}
+
+.rating-large .stars_3 {
+    background-position: -3px -408px
+}
+
+.rating-large .stars_3_half {
+    background-position: -3px -429px
+}
+
+.rating-large .stars_4 {
+    background-position: -3px -450px
+}
+
+.rating-large .stars_4_half {
+    background-position: -3px -471px
+}
+
+.rating-large .stars_5 {
+    background-position: -3px -492px
+}
+
+.rating-very-large {
+    overflow: hidden;
+    position: relative;
+    width: 126px;
+    height: 22px
+}
+
+.rating-very-large .stars_0 {
+    background-position: -3px -514px
+}
+
+.rating-very-large .stars_1 {
+    background-position: -3px -539px
+}
+
+.rating-very-large .stars_1_half {
+    background-position: -3px -564px
+}
+
+.rating-very-large .stars_2 {
+    background-position: -3px -589px
+}
+
+.rating-very-large .stars_2_half {
+    background-position: -3px -614px
+}
+
+.rating-very-large .stars_3 {
+    background-position: -3px -639px
+}
+
+.rating-very-large .stars_3_half {
+    background-position: -3px -664px
+}
+
+.rating-very-large .stars_4 {
+    background-position: -3px -689px
+}
+
+.rating-very-large .stars_4_half {
+    background-position: -3px -714px
+}
+
+.rating-very-large .stars_5 {
+    background-position: -3px -739px
+}
+
+.star-review-count .rating, .star-review-count .rating-small {
+    float: none;
+    display: inline-block
+}
+
+.ltie8 .star-review-count .rating, .ltie8 .star-review-count .rating-small {
+    display: inline;
+    margin-right: 3px
+}
+
+.star-review-count .rating {
+    vertical-align: middle
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .star-img {
+        background-image: url(//s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cb6f6453c924/assets/img/stars/stars_map@2x.png);
+        background-size: 132px 764px
+    }
+
+    .filtered-reviews-content .star-img {
+        background-image: url(//s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/a9ab7dc4cbe8/assets/img/stars/stars_map_gray@2x.png);
+        background-size: 132px 764px
+    }
+}
+
+@media print {
+    .star-img {
+        position: absolute;
+        background: none;
+        width: auto;
+        height: auto
+    }
+
+    .star-img img {
+        position: relative;
+        top: 0;
+        left: -3px;
+        width: auto;
+        height: auto
+    }
+
+    .rating .stars_0 {
+        top: -3px
+    }
+
+    .rating .stars_1 {
+        top: -21px
+    }
+
+    .rating .stars_1_half {
+        top: -39px
+    }
+
+    .rating .stars_2 {
+        top: -57px
+    }
+
+    .rating .stars_2_half {
+        top: -75px
+    }
+
+    .rating .stars_3 {
+        top: -93px
+    }
+
+    .rating .stars_3_half {
+        top: -111px
+    }
+
+    .rating .stars_4 {
+        top: -129px
+    }
+
+    .rating .stars_4_half {
+        top: -147px
+    }
+
+    .rating .stars_5 {
+        top: -165px
+    }
+
+    .rating-small .stars_0 {
+        top: -183px
+    }
+
+    .rating-small .stars_1 {
+        top: -195px
+    }
+
+    .rating-small .stars_1_half {
+        top: -207px
+    }
+
+    .rating-small .stars_2 {
+        top: -219px
+    }
+
+    .rating-small .stars_2_half {
+        top: -231px
+    }
+
+    .rating-small .stars_3 {
+        top: -243px
+    }
+
+    .rating-small .stars_3_half {
+        top: -255px
+    }
+
+    .rating-small .stars_4 {
+        top: -267px
+    }
+
+    .rating-small .stars_4_half {
+        top: -279px
+    }
+
+    .rating-small .stars_5 {
+        top: -291px
+    }
+
+    .rating-large .stars_0 {
+        top: -303px
+    }
+
+    .rating-large .stars_1 {
+        top: -324px
+    }
+
+    .rating-large .stars_1_half {
+        top: -345px
+    }
+
+    .rating-large .stars_2 {
+        top: -366px
+    }
+
+    .rating-large .stars_2_half {
+        top: -387px
+    }
+
+    .rating-large .stars_3 {
+        top: -408px
+    }
+
+    .rating-large .stars_3_half {
+        top: -429px
+    }
+
+    .rating-large .stars_4 {
+        top: -450px
+    }
+
+    .rating-large .stars_4_half {
+        top: -471px
+    }
+
+    .rating-large .stars_5 {
+        top: -492px
+    }
+
+    .rating-very-large .stars_0 {
+        top: -514px
+    }
+
+    .rating-very-large .stars_1 {
+        top: -539px
+    }
+
+    .rating-very-large .stars_1_half {
+        top: -564px
+    }
+
+    .rating-very-large .stars_2 {
+        top: -589px
+    }
+
+    .rating-very-large .stars_2_half {
+        top: -614px
+    }
+
+    .rating-very-large .stars_3 {
+        top: -639px
+    }
+
+    .rating-very-large .stars_3_half {
+        top: -664px
+    }
+
+    .rating-very-large .stars_4 {
+        top: -689px
+    }
+
+    .rating-very-large .stars_4_half {
+        top: -714px
+    }
+
+    .rating-very-large .stars_5 {
+        top: -739px
+    }
+}
